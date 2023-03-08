@@ -48,7 +48,7 @@ const settings = {
 
 const Slide = ({ children }) => {
     return (
-        <div className="slide">
+        <div className="slide overflow-hidden">
             <div className="container mx-auto">
                 <Slider {...settings}>{children}</Slider>
             </div>
